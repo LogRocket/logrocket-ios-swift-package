@@ -17,7 +17,7 @@ fi
 
 echo "Updating Swift Package to $RELEASE_VERSION..."
 
-curl -sS "https://storage.googleapis.com/logrocket-ios/$RELEASE_VERSION/Package.swift" > "$GITHUB_WORKSPACE/Package.swift"
+curl -sS --fail "https://storage.googleapis.com/logrocket-ios/$RELEASE_VERSION/Package.swift" > "$GITHUB_WORKSPACE/Package.swift"
 
 git config user.email "action@github.com"
 git config user.name "GitHub Actions"
