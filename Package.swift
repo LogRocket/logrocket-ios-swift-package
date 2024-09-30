@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LogRocket",
-            url: "https://storage.googleapis.com/logrocket-ios/1.40.0/LogRocket.xcframework.zip",
-            checksum: "0e42614e72e23af50ba9150423495e58ea2d561f794acc8a38bc93be4f736ceb"
+            url: "https://storage.googleapis.com/logrocket-ios/1.40.1/LogRocket.xcframework.zip",
+            checksum: "354a40dbf872bec81a0724ec120d375cf631cb33b82e97a1fc64cf3e3d0c91bc"
         ),
     ]
 )
